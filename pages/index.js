@@ -1,8 +1,10 @@
+import Screener from './screener';
+
 export default function Home() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Dhan Screener</h1>
-      <p>Welcome to your custom screener app.</p>
+    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+      <h1>Dhan EMA 21 Screener</h1>
+      <Screener />
     </div>
-  )
-}
+  );
+  }
